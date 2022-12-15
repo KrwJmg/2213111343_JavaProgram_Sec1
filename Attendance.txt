@@ -1,4 +1,4 @@
 Student : 2213111343
 Fullname: Korawit Jumuang
 AKA : KrwJmg
-ClassDetail : Repeat Lab Sheet 1-4
+ClassDetail : Array in Java
