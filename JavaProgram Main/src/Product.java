@@ -4,17 +4,17 @@ public class Product {
 	private int unit;
 	private double price;
 
-	public void setld(String ID) {
+	public void setId(String ID) {
 		id = ID;
 
 	}
 
-	public String setld() {
+	public String getId() {
 		return id;
 
 	}
 
-	public void seUnit(int Unit) {
+	public void setUnit(int Unit) {
 		unit = Unit;
 
 	}
@@ -22,13 +22,28 @@ public class Product {
 	public int getUnit() {
 		return unit;
 	}
+
 	public void setPrice(double PRICE) {
 		price = PRICE;
 	}
+
 	public double getPrice() {
 		return price;
 	}
+
 	public double calculate() {
-		return 0;
+		double Total = 0;
+		Total = price * unit;
+		return Total;
+	}
+
+	public String checkUnit(int getUnit) {
+		if (unit < 5) {
+			return "LOW";
+		} else if (unit >= 5 && unit <= 50) {
+			return "NORMAL";
+		} else
+			return "HIGH";
+
 	}
 }
