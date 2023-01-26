@@ -1,4 +1,4 @@
 Student : 2213111343
 Fullname: Korawit Jumuang
 AKA : KrwJmg
-ClassDetail : Lab Sheet 8 : Encapsulation
+ClassDetail : Class and Composition
