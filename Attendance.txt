@@ -1,4 +1,4 @@
 Student : 2213111343
 Fullname: Korawit Jumuang
 AKA : KrwJmg
-ClassDetail : Class and Composition
+ClassDetail : Abstract and Interface
